@@ -11,8 +11,7 @@ public class PrimeNumbersBtwTwoRanges {
         System.out.println("The prime numbers between "+start+" and "+end+" are :");
         for(int i=start;i<end;i++){
             if(isPrime(i)){
-                System.out.print(i);
-                System.out.print(" ");
+                System.out.print(i+" ");
             }
         }
          sc.close();
