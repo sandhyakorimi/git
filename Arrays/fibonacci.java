@@ -1,6 +1,5 @@
 package Arrays;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class fibonacci {
