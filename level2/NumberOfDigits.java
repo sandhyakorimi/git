@@ -1,12 +1,13 @@
 package level2;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class NumberOfDigits {
       public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number : ");
-        int num = sc. nextInt();
+        BigInteger num = sc. nextBigInteger();
         
         // int count = 0;
         // int temp = num;
