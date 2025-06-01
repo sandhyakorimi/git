@@ -9,6 +9,7 @@ public class LargestOfArray {
         int n = sc. nextInt();
         long[] arr = new long[n];
         long large = arr[0];
+        System.out.print("Enter "+n+" numbers : ");
         for(int i=0; i<n; i++){
             arr[i] = sc.nextLong();
         }
