@@ -14,3 +14,7 @@ public class inheritance {
         System.out.println(d instanceof Animal); // true (Dog is a subclass of Animal)
     }
 }
+
+
+
+
