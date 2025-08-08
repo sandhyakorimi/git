@@ -18,6 +18,7 @@ public class LinearSearch {
 
         System.out.print("Enter Element to be Searched : ");
         int search = sc.nextInt();
+
         
         boolean found = false;
         for(int i=0; i<n; i++){
