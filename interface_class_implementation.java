@@ -19,3 +19,4 @@ class c implements B{
         System.out.println("Eating");
     }
 }
+
