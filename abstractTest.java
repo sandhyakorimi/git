@@ -12,3 +12,9 @@ public class abstractTest{
         obj.Ab();
     }
 }
+
+
+
+
+
+

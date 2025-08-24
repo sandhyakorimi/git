@@ -69,12 +69,12 @@ class Cat extends Animal {
 
 public class polymorphism {
     public static void main(String[] args) {
-        Animal a;  // reference of parent class
+        Animal a; 
 
         a = new Dog();  
-        a.sound();   // Output: Dog barks
+        a.sound();
 
         a = new Cat();  
-        a.sound();   // Output: Cat meows
+        a.sound();   
     }
 }
