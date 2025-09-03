@@ -16,6 +16,7 @@ class Car {
 }
 
 public class SortingObjUsingComparator {
+    
     public static void main(String[] args) {
         Car[] carArray = new Car[3];
         carArray[0] = new Car("suv", "petrol");
@@ -24,7 +25,7 @@ public class SortingObjUsingComparator {
 
         // Sort by carName
         Arrays.sort(carArray, Comparator.comparing(c -> c.carName));
-
+        Arrays.sort(carArray, Comparator.comparing(c -> c.carType));
         // Print sorted array
         for (Car c : carArray) {
             System.out.println(c);
