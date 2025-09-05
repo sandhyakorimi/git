@@ -38,10 +38,20 @@ public class Lists {
 
         System.out.println("Index of -10 is : "+list1.indexOf(-10));        //indexOf
 
+        ListIterator<Integer> listIterator1 = list1.listIterator(list1.size());
+        while(listIterator1.hasPrevious()){
+            int val1 = listIterator1.previous();
+            System.out.println("backward traversing is : "+val1+" Previous is : "+listIterator1.previousIndex()+" Next Index is : "+listIterator1.nextIndex());
+            if(val1==-10){
+                listIterator1.set(-600);
+            }
+        }
+        list1.forEach((Integer n)->System.out.println(n));
+
         ListIterator<Integer> listIterator2 =  list1.listIterator() ;
         while(listIterator2.hasNext()){
             int val = listIterator2.next();
-            System.out.println("Element is : "+val+" Previous Index is : "+listIterator2.previousIndex()+" Next Index is : " +listIterator2.nextIndex());
+            System.out.println("forward traversing is : "+val+" Previous Index is : "+listIterator2.previousIndex()+" Next Index is : " +listIterator2.nextIndex());
             if(val==-12){
                 listIterator2.add(-100);
             }
