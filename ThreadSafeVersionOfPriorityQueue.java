@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.concurrent.PriorityBlockingQueue;
 public class ThreadSafeVersionOfPriorityQueue {
     public static void main(String[] args) {
-        PriorityBlockingQueue<Integer> pbq = new PriorityBlockingQueue<>();
+        PriorityBlockingQueue<Integer> pbq = new PriorityBlockingQueue<>(10,(Integer a, Integer b)->b-a);
         pbq.add(10);
         pbq.add(23);
         pbq.forEach((Integer n )->System.out.println(n));
