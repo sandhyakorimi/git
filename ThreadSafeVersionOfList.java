@@ -6,4 +6,4 @@ public class ThreadSafeVersionOfList {
         list1.add(0,2);
         System.out.println(list1.get(0));
     }
-}
+}   
