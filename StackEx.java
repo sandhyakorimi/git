@@ -4,7 +4,10 @@ public class StackEx {
         Stack<Integer> stack = new Stack<>();
         stack.push(34);
         stack.push(12);
+        stack.push(32);
         stack.forEach((Integer n)->System.out.println(n));
         System.out.println("Pop is : "+stack.pop());
     }
 }
+
+
