@@ -5,5 +5,6 @@ public class vectorEx{
         vec.add(30);
         vec.add(23);
         vec.forEach((Integer n)->System.out.println("vector element at index " +vec.indexOf(n)+" is "+ n));
+        System.out.println("Element at index 1 is : "+vec.get(1));
     }
 }
