@@ -7,6 +7,7 @@ public class StackEx {
         stack.push(32);
         stack.forEach((Integer n)->System.out.println(n));
         System.out.println("Pop is : "+stack.pop());
+        System.out.println("Peak is : "+stack.peek());
     }
 }
 
