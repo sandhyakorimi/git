@@ -21,7 +21,7 @@ public class InsertingElementIntoArray {
         }
         newArr[n] = newElement;
 
-        System.out.print("New array after inserting  "+newElement+" : ");
+        System.out.print("New  array after inserting  "+newElement+" : ");
         for(int num:newArr){
             System.out.print(num+" ");
         }
