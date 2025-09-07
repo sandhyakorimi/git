@@ -15,7 +15,7 @@ public class BinarySearch {
         }
         Arrays.sort(arr);
 
-        System.out.print("Enter element to be search : ");
+        System.out.print(" Enter element to be search : ");
         int search = sc.nextInt();
 
         int low=0,high=n-1;
