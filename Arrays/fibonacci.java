@@ -8,7 +8,7 @@ public class fibonacci {
         System.out.print("Enter a how many numbers you want to print : ");
         int n = sc. nextInt();
         if(n<=0){
-            System.out.println("enter a positive number");
+            System.out.println("enter a  positive number");
         }
         long[] fib = new long[n];
         fib[0]=0;
