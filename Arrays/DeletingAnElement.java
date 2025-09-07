@@ -23,7 +23,7 @@ public class DeletingAnElement {
         for(int num:newArray){
             System.out.print(num+" ");
         }
-        sc.close();
+         sc.close();
     }
    
 }
