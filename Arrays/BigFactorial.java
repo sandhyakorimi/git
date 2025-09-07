@@ -12,7 +12,7 @@ public class BigFactorial {
         for(int i=2; i<=n; i++){
           fact = fact.multiply(BigInteger.valueOf(n));
         }
-        System.out.println("The factorial of "+n+" is : "+fact);
+        System.out.println("The factorial of "+n+" is  : "+fact);
         sc.close();
     }  
 }
