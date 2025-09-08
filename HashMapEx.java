@@ -5,6 +5,9 @@ public class HashMapEx {
         roll_num.put(null, "test");
         roll_num.put(2,"hello");
         roll_num.put(3, "how are you");
+
+        roll_num.putIfAbsent(null, "TEST");
+        roll_num.putIfAbsent(4, "hii");
         for(Map.Entry<Integer, String> entrymap : roll_num.entrySet()){
             Integer key = entrymap.getKey();
             String val= entrymap.getValue();
