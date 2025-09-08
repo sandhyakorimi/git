@@ -4,6 +4,7 @@ public class HashMapEx {
         Map<Integer, String> roll_num = new HashMap<>();
         roll_num.put(null, "test");
         roll_num.put(2,"hello");
+        roll_num.put(3, "how are you");
         for(Map.Entry<Integer, String> entrymap : roll_num.entrySet()){
             Integer key = entrymap.getKey();
             String val= entrymap.getValue();
