@@ -23,7 +23,7 @@ public class HashMapEx {
 
         System.out.println("get(9): "+roll_num.getOrDefault(9, "default value"));
 
-        // System.out.println("removenull: "+roll_num.remove(null));
+        System.out.println("removenull: "+roll_num.remove(null));
 
 
         
