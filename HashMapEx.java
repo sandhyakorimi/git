@@ -17,7 +17,7 @@ public class HashMapEx {
 
         System.out.println("Size: "+roll_num.size());
 
-        // System.out.println("containsKey: "+roll_num.containsKey(3));
+        System.out.println("containsKey: "+roll_num.containsKey(3));
 
         // System.out.println("get(1): "+roll_num.get(1));
 
