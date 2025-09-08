@@ -13,5 +13,19 @@ public class HashMapEx {
             String val= entrymap.getValue();
             System.out.println("Key : " +key+ " Value : "+val);
         }
+        System.out.println("IsEmpty: "+roll_num.isEmpty());
+
+        // System.out.println("Size: "+roll_num.size());
+
+        // System.out.println("containsKey: "+roll_num.containsKey(3));
+
+        // System.out.println("get(1): "+roll_num.get(1));
+
+        // System.out.println("get(9): "+roll_num.getOrDefault(9, "default value"));
+
+        // System.out.println("removenull: "+roll_num.remove(null));
+
+
+        
     }
 }
