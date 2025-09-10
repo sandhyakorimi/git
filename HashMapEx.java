@@ -25,6 +25,7 @@ public class HashMapEx {
 
         System.out.println("removenull: "+roll_num.remove(null));
 
+        System.out.println("get(0) : "+roll_num.get(0));
 
         
     }
