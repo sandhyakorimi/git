@@ -11,7 +11,7 @@ public class ReverseString1 {
             rev = rev + str.charAt(i);
         }
 
-        System.out.println("Reversed String: " + rev);
+        System.out.println("Reversed String in reverse: " + rev);
         sc.close();
     }
 }
