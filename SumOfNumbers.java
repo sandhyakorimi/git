@@ -1,6 +1,6 @@
 public class SumOfNumbers {
     public static void main(String[] args) {
-        int n = 20;  // you can change this value
+        int n = 90;  // you can change this value
         int sum = 0;
 
         for (int i = 1; i <= n; i++) {
