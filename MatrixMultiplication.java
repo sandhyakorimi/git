@@ -3,7 +3,7 @@ public class MatrixMultiplication {
         // First matrix (2x3)
         int[][] A = {
             {1, 2, 3},
-            {4, 5, 6}
+            {4, 5, 9}
         };
 
         // Second matrix (3x2)
