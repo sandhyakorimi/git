@@ -2,7 +2,7 @@ public class MatrixMultiplication {
     public static void main(String[] args) {
         // First matrix (2x3)
         int[][] A = {
-            {1, 2, 3},
+            {1, 4, 3},
             {4, 8, 9}
         };
 
