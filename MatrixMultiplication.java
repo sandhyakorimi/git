@@ -8,7 +8,7 @@ public class MatrixMultiplication {
 
         // Second matrix (3x2)
         int[][] B = {
-            {7, 6},
+            {6, 6},
             {9, 10},
             {11, 12}
         };
