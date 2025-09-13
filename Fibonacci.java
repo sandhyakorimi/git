@@ -1,6 +1,6 @@
 class Fibonacci{
     public static void main(String[] args) {
-        int n = 10;  // number of terms
+        int n = 12;  // number of terms
         int first = 0, second = 1;
 
         System.out.print("Fibonacci Series as follows: ");
