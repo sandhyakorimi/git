@@ -27,6 +27,11 @@ public class HashMapEx {
 
         System.out.println("get(0) : "+roll_num.get(0));
 
+        // KeySet();
+        System.out.println("KeySet : ");
+        for(Integer key: roll_num.keySet()){
+            System.out.println("key:"+key);
+        }
         
     }
 }
