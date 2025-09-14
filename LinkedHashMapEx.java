@@ -13,7 +13,7 @@ public class LinkedHashMapEx {
             Map<Integer, String> HMap = new HashMap<>();
             HMap.put(1, "Hlooo!");
             HMap.put(23, "How ");
-            HMap.put(21, "are you? ");
+            HMap.put(21, " are you? ");
             for(Map.Entry<Integer, String> entry: HMap.entrySet()){
                 System.out.println(entry.getKey()+":"+entry.getValue());
             }
