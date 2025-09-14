@@ -33,5 +33,10 @@ public class HashMapEx {
             System.out.println("key:"+key);
         }
         
+        System.out.println("Values : ");
+        Collection<String> values = roll_num.values();
+        for(String val : values){
+            System.out.println("Value : "+val);
+        }
     }
 }
