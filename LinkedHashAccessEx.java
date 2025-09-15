@@ -6,7 +6,9 @@ public class LinkedHashAccessEx {
         acc.put(2, "B");
         acc.put(3,"D");
         acc.put(4,"E");
+        acc.put(5,"F");
         acc.get(2);
+        acc.get(1);
         acc.forEach((Integer key, String val)->System.out.println(key +" : "+ val));
     }
 }
