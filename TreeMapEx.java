@@ -11,5 +11,11 @@ public class TreeMapEx {
         map1.forEach((Integer n , String str) ->System.out.println(n+" : "+str));
 
         System.out.println("Using Natural Order : ");
+        Map<Integer , String> map2 = new TreeMap<>();
+        map2.put(5,"E");
+        map2.put(3,"C");
+        map2.put(6,"F");
+        map2.put(8,"H");
+        map2.forEach((Integer n, String str)->System.out.println(n+" : "+str));
     }
 }
