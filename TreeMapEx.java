@@ -10,7 +10,7 @@ public class TreeMapEx {
         map1.put(2,"B");
         map1.forEach((Integer n , String str) ->System.out.println(n+" : "+str));
 
-        System.out.println("Using Natural Order : ");
+        System.out.println("Using Natural Ordering : ");
         Map<Integer , String> map2 = new TreeMap<>();
         map2.put(5,"E");
         map2.put(3,"C");
