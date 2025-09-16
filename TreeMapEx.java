@@ -9,5 +9,7 @@ public class TreeMapEx {
         map1.put(9,"I");
         map1.put(2,"B");
         map1.forEach((Integer n , String str) ->System.out.println(n+" : "+str));
+
+        System.out.println("Using Natural Order : ");
     }
 }
