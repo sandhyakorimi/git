@@ -11,5 +11,10 @@ public class LinkedHashAccessEx {
         acc.get(2);
         acc.get(1);
         acc.forEach((Integer key, String val)->System.out.println(key +" : "+ val));
-    }
+
+        Map<Integer,String> map2 = Collections.synchronizedMap(new LinkedHashMap<>()) ;
+        map2.put(9,"K");
+        map2.put(10,"Sandy");
+        map2.forEach((Integer key2, String val2)->System.out.println(key2 +" : "+val2));
+      }
 }
