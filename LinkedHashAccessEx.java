@@ -12,6 +12,9 @@ public class LinkedHashAccessEx {
         acc.get(1);
         acc.forEach((Integer key, String val)->System.out.println(key +" : "+ val));
 
+        // thread safe version explicitly
+
+        System.out.println("Explicitly thread safe version of linked hashmap : ");
         Map<Integer,String> map2 = Collections.synchronizedMap(new LinkedHashMap<>()) ;
         map2.put(9,"K");
         map2.put(10,"Sandy");
