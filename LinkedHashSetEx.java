@@ -7,6 +7,7 @@ public class LinkedHashSetEx {
         set1.add(6);
         set1.add(90);
         set1.add(9);
+        set1.add(89);
         Iterator<Integer> iterable = set1.iterator();
         while (iterable.hasNext()) {
             int val = iterable.next();
