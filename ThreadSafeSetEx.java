@@ -6,7 +6,7 @@ public class ThreadSafeSetEx {
         Set<Integer> threadSafeSet = concurrentHashMap.newKeySet();
         threadSafeSet.add(3);
         threadSafeSet.add(8);
-
+        threadSafeSet.add(10);
         Iterator<Integer> iterator = threadSafeSet.iterator();
         while (iterator.hasNext()) {
             int val = iterator.next();
