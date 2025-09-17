@@ -18,7 +18,7 @@ public class SetEx {
         set2.forEach((Integer n)->System.out.println(n));
 
         //Add all (UNION)
-        System.out.println("Union method : ");
+        System.out.println(" Union method : ");
         set1.addAll(set2);
         set1.forEach((Integer n)->System.out.println(n));
 
