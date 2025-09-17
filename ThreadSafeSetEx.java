@@ -14,6 +14,6 @@ public class ThreadSafeSetEx {
                 threadSafeSet.add(9);         // due to thread safe it adds and runs another thread
             }
         }
-        threadSafeSet.forEach((Integer n)->System.out.println(n));
+        threadSafeSet.forEach((Integer n)->System.out.println(n ));
     }
 }
