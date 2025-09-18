@@ -11,7 +11,8 @@ public class ThreadSafeSetEx {
         while (iterator.hasNext()) {
             int val = iterator.next();
             if(val==8){
-                threadSafeSet.add(9);         // due to thread safe it adds and runs another thread
+                threadSafeSet.add(9);  
+                threadSafeSet.add(18);       // due to thread safe it adds and runs another thread
             }
         }
         threadSafeSet.forEach((Integer n)->System.out.println(n ));
