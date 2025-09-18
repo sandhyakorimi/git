@@ -11,6 +11,7 @@ public class TreeSetEx {
         while (iterable.hasNext()) {
             int val = iterable.next();
             System.out.println(val);
+           
         }
     }
 }
