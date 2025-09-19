@@ -16,6 +16,7 @@ public class TreeMapEx {
         map2.put(3,"C");
         map2.put(6,"F");
         map2.put(8,"H");
+        map2.put(10,"J");
         map2.forEach((Integer n, String str)->System.out.println(n+" : "+str));
     }
 }
