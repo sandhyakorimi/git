@@ -5,7 +5,6 @@ public class StackEx {
         stack.push(34);
         stack.push(12);
         stack.push(32);
-        stack.pop();
         stack.push(89);
         stack.forEach((Integer n)->System.out.println(n));
         System.out.println("Pop is : "+stack.pop());
