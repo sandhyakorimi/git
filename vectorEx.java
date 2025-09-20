@@ -3,6 +3,7 @@ public class vectorEx{
     public static void main(String args[]){
         Vector<Integer> vec = new Vector<>();
         vec.add(30);
+        vec.add(21);
         vec.add(23);
         vec.add(34);
         vec.add(90);
