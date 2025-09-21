@@ -11,7 +11,7 @@ public class LinkedHashSetEx {
         Iterator<Integer> iterable = set1.iterator();
         while (iterable.hasNext()) {
             int val = iterable.next();
-            System.out.println(val);
+            System.out.println(val );
         }
     }
 }
