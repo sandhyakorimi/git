@@ -3,7 +3,7 @@ public class LinkedHashSetEx {
     public static void main(String[] args) {
         Set<Integer> set1 = new LinkedHashSet<>();
         set1.add(4);
-        set1.add(5 );
+        set1.add(5);
         set1.add(6);
         set1.add(90);
         set1.add(9);
