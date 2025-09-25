@@ -16,6 +16,6 @@ public class ArmStrong2 {
         if(num==arm){
             System.out.println(" ArmStrong Number ");
         }
-        else System.out.println("Not ArmStrong Number");
+        else System.out.println(" Not ArmStrong Number");
     }
 }
