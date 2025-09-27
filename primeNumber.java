@@ -43,7 +43,7 @@ public class primeNumber{
         if(isPrime){
             System.out.println(num + " : is prime. ");
         }
-        else System.out.println(num+ " : is not prime. ");
+        else System.out.println(num+ " : is not prime.  ");
         sc.close();
     }
 }
