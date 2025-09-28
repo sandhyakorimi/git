@@ -10,10 +10,10 @@ public class ConsonantOrVowel {
             System.out.println("Not a character");
         }
         else if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
-            System.out.println("the character "+ch+" is vowel");
+            System.out.println("The character "+ch+" is vowel");
         }
         else{
-            System.out.println("the character "+ch+ " is Consonant");
+            System.out.println("The character "+ch+ " is Consonant");
         }
         sc.close();
     }
