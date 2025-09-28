@@ -7,7 +7,7 @@ public class ConsonantOrVowel {
         System.out.println("Enter a character : ");
         char ch = sc.next().toLowerCase().charAt(0);
         if(!Character.isLetter(ch)){
-            System.out.println("not a character");
+            System.out.println("Not a character");
         }
         else if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
             System.out.println("the character "+ch+" is vowel");
