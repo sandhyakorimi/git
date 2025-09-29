@@ -14,7 +14,7 @@ public class No_of_vowels {
                 vowels += ch+" ";
             } 
         }
-        System.out.println(" The String "+str+" contains "+num+ " vowels. "+ "Those are : "+vowels);
+        System.out.println("The String "+str+" contains "+num+ " vowels. "+ "Those are : "+vowels);
         sc.close();
     }
 }
