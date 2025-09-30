@@ -11,7 +11,7 @@ public class Sum_of_elements_in_array {
             arr[i] = sc.nextInt();
             sum += arr[i];
         }
-        System.out.println(" The sum of numbers in a array is : "+sum);
+        System.out.println("The sum of numbers in a array is : "+sum);
         sc.close();
     }
 }
