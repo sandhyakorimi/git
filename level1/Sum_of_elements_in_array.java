@@ -5,7 +5,7 @@ public class Sum_of_elements_in_array {
         System.out.println("Enter size of array : ");
         int n = sc.nextInt();
         int[] arr = new int[n];
-        System.out.println("Enter "+n+"elements to array :");
+        System.out.println("Enter "+n+"elements to array : ");
         int sum = 0;
         for(int i = 0 ; i<=n-1; i++){
             arr[i] = sc.nextInt();
