@@ -8,7 +8,7 @@ public class Sum_of_elements_in_array {
        
         int sum = 0;
         for(int i = 0 ; i<=n-1; i++){
-            arr[i]= sc.nextInt();
+            arr[i] = sc.nextInt();
             sum += arr[i];
         }
         System.out.println(" The sum of numbers in a array is : "+sum);
