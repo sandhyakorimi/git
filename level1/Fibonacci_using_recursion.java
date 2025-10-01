@@ -9,7 +9,7 @@ public class Fibonacci_using_recursion{
         int c = 0;
         for(int i=2; i<=n;i++){
             c = a+b;
-            a=b;
+            a = b;
             b = c;
         }
         System.out.println("The "+n+"th fibonocci number is: "+a);
