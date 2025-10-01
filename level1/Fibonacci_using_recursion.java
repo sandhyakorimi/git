@@ -12,6 +12,6 @@ public class Fibonacci_using_recursion{
             a = b;
             b = c;
         }
-        System.out.println("The "+n+"th fibonocci number is: "+a);
+        System.out.println("The "+n+"th fibonocci number is : "+a);
     }
 }
