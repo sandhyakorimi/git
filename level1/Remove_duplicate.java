@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Remove_duplicate {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter number of elements to add into an array : ");
+        System.out.println(" Enter number of elements to add into an array : ");
         int n = sc.nextInt();
         System.out.println(" Enter "+n+ " elements : ");
         int arr[] = new int[n];
