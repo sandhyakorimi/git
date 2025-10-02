@@ -16,7 +16,7 @@ public class Remove_duplicate {
                 uniquelist.add(val);
             }
         }
-        System.out.println(" Array after removing duplicates : "+uniquelist);
+        System.out.println("Array after removing duplicates : "+uniquelist);
         sc.close();
     }
 }
