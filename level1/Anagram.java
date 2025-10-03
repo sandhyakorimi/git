@@ -19,7 +19,7 @@ public class Anagram {
                 System.out.println(" Anagram");
             }
             else{
-                System.out.println("Not Anagram");
+                System.out.println(" Not Anagram");
             }
         }
         sc.close();
