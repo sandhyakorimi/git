@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Anagram {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the First String : ");
+        System.out.println(" Enter the First String : ");
         String str1= sc.nextLine().toLowerCase().replaceAll("\\s","" );
-        System.out.println("Enter the Second String : ");
+        System.out.println(" Enter the Second String : ");
         String str2 =sc.nextLine().toLowerCase().replaceAll("\\s", "");
         if(str1.length()!=str2.length()){
-            System.out.println("Not Anagram ");
+            System.out.println(" Not Anagram ");
         }
         else{
             char[] arr1 = str1.toCharArray();
