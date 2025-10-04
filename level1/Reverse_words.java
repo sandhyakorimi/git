@@ -11,7 +11,7 @@ public class Reverse_words {
             StringBuilder rev = new StringBuilder(word);
             result.append(rev.reverse().toString()).append(" ");
         }
-        System.out.println(" Reverse words : "+result.toString().trim()); // combine the words
+        System.out.println("Reverse words : "+result.toString().trim()); // combine the words
         sc.close();
     }
 }
