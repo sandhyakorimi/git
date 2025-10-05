@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Reverse_words {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a sentence : ");
+        System.out.println(" Enter a sentence : ");
         String sentence = sc.nextLine();
         System.out.println();
         String[] words = sentence.split(" ");
