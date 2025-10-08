@@ -6,7 +6,7 @@ public public class twoSums {
                     return new int[]{i, j};
                 }
             }
-        }
+        } 
         return new int[0];   
     }
 } {
