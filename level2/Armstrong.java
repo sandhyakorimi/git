@@ -10,7 +10,7 @@ public class Armstrong {public static void main(String args[]){
         int arm = 0;
         int n = String.valueOf(num).length();
         if(num==0){
-            System.out.println("Zero is not a armstrong number.");
+            System.out.println("Zero is not a armstrong number. ");
         }
         else{
             while(temp!=0){
