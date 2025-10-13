@@ -8,5 +8,5 @@ public class merge_Sorted_arrays {
         }
         Arrays.sort(nums1);
     
-}
+} 
 }
