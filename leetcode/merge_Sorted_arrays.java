@@ -6,7 +6,6 @@ public class merge_Sorted_arrays {
         for(int i=0;i<n;i++){
             nums1[i+m]=nums2[i];
         }
-        Arrays.sort(nums1);   
-    
+        Arrays.sort(nums1);  
 } 
 }
