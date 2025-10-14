@@ -9,7 +9,7 @@ public class mergeStrings_Alternatively {
         }
         res.append(word1.substring(i));
         res.append(word2.substring(j));
-        return res.toString();
+        return res.toString(); 
     }
 
 }
