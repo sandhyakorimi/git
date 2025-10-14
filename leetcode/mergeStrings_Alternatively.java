@@ -11,5 +11,5 @@ public class mergeStrings_Alternatively {
         res.append(word2.substring(j));
         return res.toString(); 
     }
-
+ 
 }
