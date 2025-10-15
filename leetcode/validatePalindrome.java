@@ -10,7 +10,7 @@ public class validatePalindrome {
                 return true;
             }
         }
-
+ 
         return false;
     }  
 
