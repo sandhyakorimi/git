@@ -11,7 +11,7 @@ public class Stack_Using_Queue {
             q.offer(q.poll());
         }
     }
-
+ 
     public int pop() {
         return q.poll();
     }
