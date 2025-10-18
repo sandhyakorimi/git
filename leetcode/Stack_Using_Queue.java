@@ -15,7 +15,7 @@ public class Stack_Using_Queue {
     public int pop() {
         return q.poll();
     }
-
+  
     public int top() {
         return q.peek();
     }
