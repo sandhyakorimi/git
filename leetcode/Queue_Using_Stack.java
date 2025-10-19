@@ -11,7 +11,6 @@ public class Queue_Using_Stack {
         s1.push(x);
     }
 
-
     public int pop() {
         if (s2.isEmpty()) {
             while (!s1.isEmpty()) {
