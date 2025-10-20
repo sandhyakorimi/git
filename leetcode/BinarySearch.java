@@ -9,7 +9,7 @@ public class BinarySearch {
             } else if (nums[m] < target) {
                 l = m + 1;
             } else {
-                return m;
+                return m;   
             }
         }   
         return -1;
