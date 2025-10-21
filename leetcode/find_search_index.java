@@ -8,7 +8,7 @@ public class find_search_index {
             }
             if (nums[mid] > target) {
                 r = mid - 1;
-            } else {
+            } else { 
                 l = mid + 1;
             }
         }   
