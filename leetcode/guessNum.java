@@ -16,7 +16,7 @@ public class guessNum {
             if (res > 0) {
                 l = m + 1;
             } else if (res < 0) {
-                r = m - 1;
+                r = m - 1;  
             } else {
                 return m;
             }
