@@ -33,6 +33,6 @@ public class InvertTree {
                 queue.offer(node.right);
             }
         }
-        return root;
+        return root;    
     }   
 }               
