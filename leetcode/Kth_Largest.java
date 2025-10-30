@@ -10,7 +10,7 @@ public class Kth_Largest {
             minHeap.offer(num);
             if (minHeap.size() > k) {
                 minHeap.poll();
-            }
+            }   
         }       
     }
 
