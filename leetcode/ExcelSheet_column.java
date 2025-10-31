@@ -6,7 +6,7 @@ public class ExcelSheet_column {
             int offset = columnNumber % 26;
             res.append((char) ('A' + offset));
             columnNumber /= 26;
-        }
+        }   
         return res.reverse().toString();
     }
 }       
