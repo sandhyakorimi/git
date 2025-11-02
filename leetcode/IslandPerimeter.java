@@ -8,7 +8,7 @@ public class IslandPerimeter {
                     res += (j + 1 >= n || grid[i][j + 1] == 0) ? 1 : 0;
                     res += (i - 1 < 0 || grid[i - 1][j] == 0) ? 1 : 0;
                     res += (j - 1 < 0 || grid[i][j - 1] == 0) ? 1 : 0;
-                }
+                }       
             }   
         }
         return res;     
