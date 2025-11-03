@@ -18,5 +18,5 @@ public class Kth_Largest1 {
         Collections.sort(arr);
         return arr.get(arr.size() - K);
     }
-            
-}
+
+}       
