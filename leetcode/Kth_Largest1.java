@@ -16,7 +16,7 @@ public class Kth_Largest1 {
     public int add(int val) {
         arr.add(val);
         Collections.sort(arr);
-        return arr.get(arr.size() - K);
+        return arr.get(arr.size() - K);     
     }
 
 }       
