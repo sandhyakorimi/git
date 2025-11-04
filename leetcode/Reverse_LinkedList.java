@@ -12,7 +12,7 @@ public class Reverse_LinkedList {
  * }
  */
 
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList(ListNode head) {    
         ListNode prev = null;
         ListNode curr = head;
 
