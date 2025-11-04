@@ -22,7 +22,7 @@ public class Reverse_LinkedList {
             prev = curr;        
             curr = temp;
         }
-        return prev;        
+        return prev;                
     }
 
 }
