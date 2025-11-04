@@ -24,5 +24,5 @@ public class Reverse_LinkedList {
         }
         return prev;                
     }
-
+        
 }
