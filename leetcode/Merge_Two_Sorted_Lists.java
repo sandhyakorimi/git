@@ -26,7 +26,7 @@ public class Merge_Two_Sorted_Lists {
         }
 
         if (list1 != null) {
-            node.next = list1;
+            node.next = list1;      
         } else {
             node.next = list2;
         }
