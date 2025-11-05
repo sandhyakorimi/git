@@ -31,6 +31,6 @@ public class Merge_Two_Sorted_Lists {
             node.next = list2;
         }
 
-        return dummy.next;
+        return dummy.next;      
     }
 }
