@@ -11,7 +11,7 @@ public class Implementing_Stack_Using_Queue {
     public void push(int x) {
         q.offer(x);
         for (int i = q.size() - 1; i > 0; i--) {
-            q.offer(q.poll());
+            q.offer(q.poll());  
         }
     }
 
