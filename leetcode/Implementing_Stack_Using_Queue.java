@@ -8,7 +8,7 @@ public class Implementing_Stack_Using_Queue {
         q = new LinkedList<>();
     }
 
-    public void push(int x) {
+    public void push(int x) {       
         q.offer(x);
         for (int i = q.size() - 1; i > 0; i--) {
             q.offer(q.poll());  
