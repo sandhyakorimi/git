@@ -13,7 +13,7 @@ public class Implementing_Stack_Using_Queue {
         for (int i = q.size() - 1; i > 0; i--) {
             q.offer(q.poll());  
         }       
-    }
+    }       
 
     public int pop() {
         return q.poll();
