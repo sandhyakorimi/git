@@ -33,7 +33,7 @@ public class Binary_Tree_Inorder {
                     cur = cur.left;
                 } else {
                     prev.right = null;
-                    res.add(cur.val);
+                    res.add(cur.val);       
                     cur = cur.right;
                 }
             }   
