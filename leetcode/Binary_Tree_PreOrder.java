@@ -31,7 +31,7 @@ public class Binary_Tree_PreOrder {
                 TreeNode prev = cur.left;
                 while (prev.right != null && prev.right != cur) {
                     prev = prev.right;
-                }
+                }           
 
                 if (prev.right == null) {
                     res.add(cur.val);
