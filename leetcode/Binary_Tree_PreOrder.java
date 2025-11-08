@@ -22,10 +22,10 @@ public class Binary_Tree_PreOrder {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         TreeNode cur = root;
-        
+
         while (cur != null) {
             if (cur.left == null) {
-                res.add(cur.val);
+                res.add(cur.val);       
                 cur = cur.right;
             } else {
                 TreeNode prev = cur.left;
