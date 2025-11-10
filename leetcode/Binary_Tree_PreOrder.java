@@ -38,7 +38,7 @@ public class Binary_Tree_PreOrder {
                     prev.right = cur;
                     cur = cur.left;
                 } else {
-                    prev.right = null;
+                    prev.right = null; 
                     cur = cur.right;  
                 }
             }
