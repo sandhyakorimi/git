@@ -39,7 +39,7 @@ public class Binary_Tree_PreOrder {
                     cur = cur.left;
                 } else {
                     prev.right = null; 
-                    cur = cur.right;  
+                    cur = cur.right;    
                 }
             }
         }       
