@@ -11,7 +11,7 @@ class Solution {
         if(Arrays.equals(a,b)){
             return true;
         }
-        else return false; 
+        else return false;   
         } 
     }
 }       
