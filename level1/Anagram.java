@@ -21,7 +21,7 @@ public class Anagram {
             else{
                 System.out.println(" It is not an Anagram! ");
             }   
-        } 
+        }   
         sc.close();     
     }   
 
