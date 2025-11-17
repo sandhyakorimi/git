@@ -22,7 +22,7 @@ public class Anagram {
                 System.out.println(" It is not an Anagram! ");
             }   
         }   
-        sc.close();     
+        sc.close();      
     }   
 
 }           
