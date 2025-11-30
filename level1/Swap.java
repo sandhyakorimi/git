@@ -13,6 +13,6 @@ public class Swap{
         b=a-b;  
         a=a-b;
         System.out.println("Now after Swapping first number is: "+a+" & the 7Second number is: "+b);
-        sc.close();     
+        sc.close();         
     }   
 }                           
