@@ -14,5 +14,5 @@ public class Swap{
         a=a-b;
         System.out.println("Now after Swapping first number is: "+a+" & the 7Second number is: "+b);
         sc.close();                                                 
-    }                       
+    }                        
 }                                                
